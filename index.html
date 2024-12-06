@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min (1).css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Luxury Photography Portfolio advertising personal photographers and studio
+      sessions
+    </title>
+  </head>
+  <body>
+    <header>
+      <!---start of nav bar-->
+      <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <h1>Avant-Garde Photography</h1></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Avant-Garde Photography
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about"> About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    View More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#contact">Contact Us</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div style="height: 100px"></div>
+      <!--end of Nav bar-->
+    </header>
+    <main>
+      <!---start of carousel section-->
+      <section id="home">
+        <!---top of carousel-->
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner"></div>
+          <div class="carousel-inner">
+            <div
+              style="height: 400px; width: 100vw"
+              class="carousel-item active"
+            >
+              <img
+                src="image.png"
+                class="w-100 h-100 object-fit-cover"
+                style="object-position: 50% 40%"
+                alt="black and white photo of ballet dancer"
+              />
+            </div>
+            <div style="height: 400px; width: 100vw" class="carousel-item">
+              <img
+                src="https://images.pexels.com/photos/931796/pexels-photo-931796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="w-100 h-100 object-fit-cover"
+                style="object-position: 50% 40%"
+                alt="a photographer capturing a couple getting married"
+              />
+            </div>
+            <div style="height: 400px; width: 100vw" class="carousel-item">
+              <img
+                src="image-3.png"
+                class="w-100 h-100 object-fit-cover"
+                style="object-position: 50% 40%"
+                alt="portrait of man"
+              />
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!---bottom of carousel-->
+      </section>
+      <!---end of carousel section-->
+      <!--Home section-->
+
+      <figure>
+        <blockquote class="blockquote text-end mt-2">
+          <p>"Turning your moments into extraordinary works of art".</p>
+        </blockquote>
+        <figcaption class="blockquote-footer text-end">
+          John Doe <cite title="Source Title">Art Extravaganza</cite>
+        </figcaption>
+      </figure>
+      <!---end of home sections-->
+      <!--start of grid section-->
+      <div class="container text-center">
+        <div class="row-cols-1">
+          <div class="col">
+            <h2 class="pt-4 mt-5" >About</h2>
+            <!--start of Home article-->
+            <article id="about" class="pt-2">
+              <p><em>Elegance in Every Frame.</em></p>Welcome to Avant-Garde Photography, where
+                artistry meets professionalism. Our passion for photography
+                transcends the ordinary, capturing the elegance and essence of
+                every moment. We specialize in providing personal photographers
+                for weddings, theater, performing arts, and professional models,
+                ensuring that your special events and performances are
+                immortalized with grace and style. Our Vision At Avant-Garde Photography, we believe in the power of visual storytelling. Our
+                mission is to create timeless images that reflect the beauty,
+                emotion, and uniqueness of each subject. We are dedicated to
+                offering a personalized and sophisticated photography
+                experience, tailored to your specific needs and desires.<p><br>
+                Expertise Weddings: From intimate ceremonies to grand
+                celebrations, our wedding photography captures the love, joy,
+                and intricate details of your special day, creating memories
+                that last a lifetime. Trust us to turn your moments into stunning visual stories that you will cherish forever.</p><p>Theater and Performing Arts: We understand
+                the magic of the stage and the artistry behind every
+                performance. Our photographers excel at capturing the drama,
+                emotion, and energy of theatrical productions and live
+                performances, highlighting every nuance and expression.</p><p>
+                Professional Models: Our expertise extends to fashion and
+                modeling photography, where we bring out the best in
+                professional models, showcasing their talent and beauty in every
+                shot. Our photographers work closely with models to create
+                stunning portfolios that stand out.</p><p>Why Choose Us? Personalized
+                Service: We take the time to understand your vision and
+                preferences, ensuring that every photo session is uniquely
+                tailored to you.
+              </p>
+            </article>
+            <!---end of home article-->
+          </div>
+          <div class="col">
+            <h2 class="pt-4 mt-5">Projects</h2>
+            <!--start of Projects article--->
+            <article id="projects" class="pt-2">
+              <p>
+                Step
+                into the world of stunning visuals and unparalleled artistry
+                with Avant-Garde Photography, where every click tells a story of
+                elegance, creativity, and precision. Our professional
+                photography services have left an indelible mark on diverse
+                projects, showcasing our expertise in weddings, performing arts,
+                and advanced lighting techniques. </p>Our Exceptional Portfolio
+                Weddings: We've immortalized countless love stories, capturing
+                the magic of weddings with a modern, sophisticated touch. From
+                intimate ceremonies to grand celebrations, our photography
+                beautifully narrates the joy, love, and timeless moments of your
+                special day. Highlight: Our recent project at the exquisite
+                Magnolia Trace was a testament to our ability to blend natural
+                light with our advanced lighting techniques, creating dreamy,
+                picture-perfect memories. <p>Performing Arts: Our lens has
+                witnessed the passion and drama of the performing arts, from
+                ballet to Broadway. We understand the unique demands of
+                capturing live performances, ensuring every leap, expression,
+                and spotlight moment is preserved with stunning clarity.</p><p>
+                Lighting Mastery: Light is not just an element; it's the essence
+                of photography. Our mastery in lighting transforms ordinary
+                scenes into extraordinary visuals. Whether it's the soft glow of
+                a sunset or the dramatic flair of a studio setup, we create the
+                perfect ambience for your photos. Highlight: Our innovative
+                lighting project for Sarah James, a high-profile fashion shoot,
+                showcased our ability to manipulate light creatively, delivering
+                breathtaking images that stood out in the industry.
+              </p>
+            </article>
+            <!---start of grid card system-->
+            <!--start of card 1 in projects folder-->
+            <div
+              class="row row-cols-2 row-cols-md-3 g-5"
+              style="max-width: 100rem"
+            >
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="https://aiforfolks.com/wp-content/uploads/2024/01/wedding-photographer.jpg"
+                    class="card-img-top"
+                    alt="a photographer capturing wedding photos"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Capture Your Memories with Professional Photographers in
+                      Unique Locations.
+                    </h5>
+                    <p class="card-text">
+                      Are you ready to turn your special moments into timeless
+                      memories? Our team of professional photographers are here
+                      to bring your visions to life in the most unique and
+                      stunning locations.
+                    </p>
+                    <h6>Capture every memorable detail with elegance.</h6>
+                    <ul>
+                      <li>Breathtaking Backdrops</li>
+                      <li>Personalized Experience</li>
+                      <li>Creative Expertise</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!---end of card 1 in projects section-->
+              <!---start of card 2 in projects section-->
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <img
+                    src="https://th.bing.com/th/id/R.48136b8094206b0a940b48465ab62906?rik=M%2blbGGLrHrsgMg&riu=http%3a%2f%2fjonathantaylorphotography.com%2fwp-content%2fuploads%2f2019%2f01%2fphotography-studio-rental-bangkok.jpg&ehk=edBiRffiQ71ZmGVyB9YLJ1bRkJvA36iOaV01kvv83UI%3d&risl=&pid=ImgRaw&r=0"
+                    class="card-img-top"
+                    alt="Studio set-up using lighting"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Our Professional Studio's Lighting Mastery
+                    </h5>
+                    <p class="card-text">
+                      Step into a world where every moment is crafted with the
+                      perfect light. At our studio, we don't just take photos—we
+                      create masterpieces. Experience the magic of professional
+                      lighting that transforms your vision into stunning
+                      reality.
+                    </p>
+                    <h6>Why Choose Our Studio?</h6>
+                    <ul>
+                      <li>Precision-Controlled Light</li>
+                      <li>Top-Tier Equipment</li>
+                      <li>Personalized Lighting Design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!--end of card 2 in project sections-->
+              <!---start of card 3 in projects folder-->
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <img
+                    src="https://3.bp.blogspot.com/--hvvGj6hd7s/WNTkWwE1aBI/AAAAAAAARKo/sGibJcTm94EoZAK-FuLIYzaLii4JmYuNwCLcB/s1600/studio%2Blight%2Bvs%2Bnatural%2Blight%2Bportraits.JPG"
+                    class="card-img-top"
+                    alt="a woman in a studio with two photographers"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Schedule Your Personalized planning Consultation
+                    </h5>
+                    <p class="card-text">
+                      Once we receive your inquiry, we will schedule a
+                      consultation at a convenient time for you. During this
+                      meeting, we will discuss your ideas, preferences, and the
+                      style you envision for your photos. This helps us
+                      understand your unique needs and ensures that we deliver a
+                      final product that exceeds your expectations. Based on our
+                      consultation, we will create a tailored photography plan
+                      that aligns with your vision. From lighting to location
+                      and everything in between, we ensure that every detail is
+                      meticulously planned to achieve the desired look and feel.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end of card 3 in projects folder-->
+            <!---end of card grid system-->
+            <!----end of projects article-->
+
+            <!---start of card 3-->
+          </div>
+          <div>
+            <h2 class="pt-4 mt-5">Contact Us</h2>
+            <!--start of Contact article--->
+            <article id="contact" class="pt-2">
+              <div class="lead">
+                <div class="container text-center">
+  <div class="row">
+    <div class="col order-last">
+      We look forward to
+                hearing from you and helping you create memories that will last
+                a lifetime.<br> Let’s make your moments unforgettable!
+    </div>
+    <div class="col">
+      
+                 How to Reach Us:<br> Phone: [Your Phone Number]<br> Email: [Your Email
+                Address] <br>Website: Avant-Garde Photography 
+    </div>
+    <div class="col order-first">
+     Reach out
+                to us today to book your consultation and discover how we can
+                create stunning, timeless images that you'll treasure forever.
+    </div>
+  </div>
+</div>
+   </div>       
+  </article>
+     <!----end of contact article-->
+            <!--start of address-->
+
+            <!--end of address-->
+        
+      <!--end of grid system-->
+      <!---start of form-->
+<form>
+   <div class="mb-3 mt-5">
+    <label for="exampleInputPassword1" class="form-label">First Name</label>
+    <input type="name" class="form-control" id="exampleInputPassword1">
+  </div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Last Name</label>
+    <input type="name" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+    <input type="phone number" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+ 
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      <!--end of form-->
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <footer>
+      <div class="text-dark"></div>
+
+      <div class="text-dark">
+        <hr/>
+      </div>
+
+      <hr class="border border-dark border-2 opacity-50" />
+
+      <p style="margin-top: 2px">copyright 2024 &copy; Alysia Monroe</p>
+    </footer>
+  </body>
+</html>
